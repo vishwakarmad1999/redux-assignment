@@ -56,9 +56,9 @@ class App extends React.Component {
                     </div>
                     <div className="contacts-container">
                         <h5 className="text-center">Recently Contacted</h5>
-                        <div className="text-center btn btn-dark btn-block mt-3">{ this.props.contacts[this.props.contacts.length - 1] ? this.props.contacts[this.props.contacts.length - 1].name + " - " +  this.props.contacts[this.props.contacts.length - 1].timestamp : "" }</div>
-                        <div className="text-center btn btn-dark btn-block mt-3">{ this.props.contacts[this.props.contacts.length - 2] ? this.props.contacts[this.props.contacts.length - 2].name + " - " +  this.props.contacts[this.props.contacts.length - 2].timestamp : "" }</div>
-                        <div className="text-center btn btn-dark btn-block mt-3">{ this.props.contacts[this.props.contacts.length - 3] ? this.props.contacts[this.props.contacts.length - 3].name + " - " +  this.props.contacts[this.props.contacts.length - 3].timestamp : "" }</div>
+                        <div className="text-center btn btn-dark btn-block mt-3">{ this.props.contacts[this.props.contacts.length - 1] ? this.props.contacts[this.props.contacts.length - 1].name + " - " +  this.props.contacts[this.props.contacts.length - 1].timestamp : "Unknown" }</div>
+                        <div className="text-center btn btn-dark btn-block mt-3">{ this.props.contacts[this.props.contacts.length - 2] ? this.props.contacts[this.props.contacts.length - 2].name + " - " +  this.props.contacts[this.props.contacts.length - 2].timestamp : "Unknown" }</div>
+                        <div className="text-center btn btn-dark btn-block mt-3">{ this.props.contacts[this.props.contacts.length - 3] ? this.props.contacts[this.props.contacts.length - 3].name + " - " +  this.props.contacts[this.props.contacts.length - 3].timestamp : "Unknown" }</div>
                     </div>  
                 </div>
             </React.Fragment>
